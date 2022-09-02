@@ -8,7 +8,7 @@
              d:DesignHeight="150" d:DesignWidth="700">
     <Grid>
         <DockPanel Width="680" Height="100">
-            <Border CornerRadius="25" Background="#BF232323"></Border>
+            <Border CornerRadius="25" Background="#BF2E2E2E"></Border>
         </DockPanel>
         <Grid>
             <Grid.ColumnDefinitions>
@@ -32,20 +32,20 @@
                         <RowDefinition/>
                     </Grid.RowDefinitions>
                     <StackPanel  Orientation="Horizontal">
-                        <materialDesign:PackIcon Kind="Taxi" Width="25" Height="25" Foreground="#CC47B5FF" />
-                        <Label FontSize="12" FontWeight="Bold" Foreground="#CC47B5FF">Car Model</Label>
-                        <Label FontSize="12" Margin="55,0,0,0" FontWeight="Bold" Foreground="#CC47B5FF">Car Number</Label>
-                        <Label FontSize="12" Margin="55,0,0,0" FontWeight="Bold" Foreground="#CC47B5FF" >Car Color</Label>
-                        <materialDesign:PackIcon Kind="CardAccountDetailsOutline"  Width="25" Height="25" Margin="55,0,0,0" Foreground="#CC47B5FF"/>
-                        <Label FontSize="12"  FontWeight="Bold" Foreground="#CC47B5FF" >Driver Info</Label>
-                        <Label FontSize="12" Margin="55,0,0,0" Foreground="#CC47B5FF" FontWeight="Bold" >Driver Number</Label>
+                        <materialDesign:PackIcon Kind="Taxi" Width="25" Height="25" Foreground="#CCFFFFFF" />
+                        <Label FontSize="12" FontWeight="Bold" Foreground="#CCFFFFFF">Car Model</Label>
+                        <Label FontSize="12" Margin="55,0,0,0" FontWeight="Bold" Foreground="#CCFFFFFF">Car Number</Label>
+                        <Label FontSize="12" Margin="55,0,0,0" FontWeight="Bold" Foreground="#CCFFFFFF" >Car Color</Label>
+                        <materialDesign:PackIcon Kind="CardAccountDetailsOutline"  Width="25" Height="25" Margin="55,0,0,0" Foreground="#CCFFFFFF"/>
+                        <Label FontSize="12"  FontWeight="Bold" Foreground="#CCFFFFFF" >Driver Info</Label>
+                        <Label FontSize="12" Margin="55,0,0,0" Foreground="#CCFFFFFF" FontWeight="Bold" >Driver Number</Label>
                     </StackPanel>
                     <StackPanel Orientation="Horizontal" Grid.Row="1">
                         <Label Name="Car_model" Foreground="#CC47B5FF" FontSize="13" FontFamily="Segoe UI Variable Text Semibold" ></Label>
                         <Label Name="Car_Number" Margin="80,0,0,0" Foreground="#CC47B5FF" FontSize="13" FontFamily="Segoe UI Variable Text Semibold">Car Number</Label>
                         <Label Name="Car_Color"  Margin="60,0,0,0" Foreground="#CC47B5FF" FontSize="13" FontFamily="Segoe UI Variable Text Semibold">Car Color</Label>
                         <Label Name="Driver_info" Margin="60,0,0,0" Foreground="#CC47B5FF" FontSize="13" FontFamily="Segoe UI Variable Text Semibold">Driver Info</Label>
-                        <Label Name="Driver_Tel" Margin="72,0,0,0" Foreground="#CC47B5FF" FontSize="13" FontFamily="Segoe UI Variable Text Semibold">Driver Number</Label>
+                        <Label Name="Driver_Tel" Margin="60,0,0,0" Foreground="#CC47B5FF" FontSize="13" FontFamily="Segoe UI Variable Text Semibold">Driver Number</Label>
                     </StackPanel>
                 </Grid>
                 <Grid Grid.Row="1" Margin="0,0,0,5">
@@ -60,17 +60,17 @@
                             <ColumnDefinition/>
                         </Grid.ColumnDefinitions>
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" >
-                            <materialDesign:PackIcon Kind="HomeMapMarker"  Width="25" Height="25" Foreground="#CD47B5FF"/>
-                            <Label FontSize="12" FontWeight="Bold"  Foreground="#CC47B5FF">Start Location</Label>
+                            <materialDesign:PackIcon Kind="HomeMapMarker"  Width="25" Height="25" Foreground="#CCFFFFFF"/>
+                            <Label FontSize="12" FontWeight="Bold"  Foreground="#CCFFFFFF">Start Location</Label>
                         </StackPanel>
                         <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Center" >
-                            <materialDesign:PackIcon Kind="MapMarkerOutline" Width="25"  Height="25" Foreground="#CC47B5FF" />
-                            <Label FontSize="12" FontWeight="Bold" Foreground="#CC47B5FF">Finish Location</Label>
+                            <materialDesign:PackIcon Kind="MapMarkerOutline" Width="25"  Height="25" Foreground="#CCFFFFFF" />
+                            <Label FontSize="12" FontWeight="Bold" Foreground="#CCFFFFFF">Finish Location</Label>
                         </StackPanel>
                         
                         <StackPanel Grid.Column="2" Orientation="Horizontal" HorizontalAlignment="Center" >
-                            <materialDesign:PackIcon Kind="CurrencyUsd" Width="25"  Height="25" Foreground="#CC47B5FF" />
-                            <Label FontSize="12" FontWeight="Bold" Foreground="#CC47B5FF">Payment</Label>
+                            <materialDesign:PackIcon Kind="CurrencyUsd" Width="25"  Height="25" Foreground="#CCFFFFFF" />
+                            <Label FontSize="12" FontWeight="Bold" Foreground="#CCFFFFFF">Payment</Label>
                         </StackPanel>
                     </Grid>
                     <!--<StackPanel Orientation="Horizontal">

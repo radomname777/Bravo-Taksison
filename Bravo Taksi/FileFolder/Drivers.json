@@ -65,15 +65,15 @@
     "CarNumber": "90-AC-555",
     "CarColor": "white",
     "Location": {
-      "X": 49.83251000000007,
-      "Y": 40.394190000000037
+      "X": 49.874780000000044,
+      "Y": 40.492570000000057
     },
-    "Balance": 171.49000000000001,
-    "Rating": 125,
-    "CountTravel": 15,
+    "Balance": 223.80999999999997,
+    "Rating": 130,
+    "CountTravel": 18,
     "TotalRating": 0,
-    "DriverBenefit": 145.76650000000001,
-    "CompanyBenefit": 25.723500000000005
+    "DriverBenefit": 190.23849999999999,
+    "CompanyBenefit": 33.571499999999993
   },
   {
     "Name": "Elgun",

@@ -23,7 +23,7 @@ namespace Bravo_Taksi
     public partial class MainWindow : Window
     {
         public bool AutoStart { get; set; } = false;
-        private int num =1;
+        private int num =100;
         private DispatcherTimer timer = new DispatcherTimer();
         public void Sample()
         {

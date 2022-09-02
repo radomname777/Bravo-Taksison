@@ -365,6 +365,9 @@
   <ItemGroup>
     <Resource Include="Resources\car.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="UserControls\blurbravos.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
